@@ -1,7 +1,7 @@
 ---
-title: MOT SO CONG TRINH THUC TE
+title: CONG TRINH THUC TE
 layout: landing
-description: MO SO CONG TRINH DA HOAN THANH.
+description: CONG TRINH DA HOAN THANH.
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
