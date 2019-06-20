@@ -1,7 +1,7 @@
 ---
-title: CAC DU AN DA THAM GIA
+title: MOT SO CONG TRINH THUC TE
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: MO SO CONG TRINH DA HOAN THANH.
 image: assets/images/pic07.jpg
 nav-menu: true
 ---

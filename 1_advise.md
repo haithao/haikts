@@ -1,6 +1,8 @@
 ---
 layout: page
 title: TU VAN
+description: GOC CHUYEN GIA TU VAN.
+image: assets/images/pic07.jpg
 nav-menu: true
 ---
 

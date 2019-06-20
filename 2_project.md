@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DU AN
-description: Lorem ipsum dolor est
+description: MOT SO CAC DU AN DA TRIEN KHAI.
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
