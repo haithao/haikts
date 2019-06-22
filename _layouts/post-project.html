@@ -17,7 +17,7 @@
 <div id="main" class="alt">
 
 <!-- One -->
-<section class="no-padding" id="one">
+<section class="no-padding" id="head">
 <div class="container-fluid">
 	<!-- <div class="inner"> -->
 	<header class="major">
@@ -29,9 +29,8 @@
 </div>
 </section>
 
-<section class="no-padding" id="two">
+<section class="no-padding" id="project">
 	<div class="container-fluid">
-	<!-- <div class="inner"> -->
 	<div class="row-no-gutters">
 	{% for post in site.posts %}
 	{% if post.type == 'project' %}		
@@ -54,7 +53,6 @@
 	{% endif %}
 	{% endfor %}			
 	</div>
-	<!-- </div> -->
 	</div>
 </section>
 
