@@ -34,18 +34,18 @@
 	<!-- <div class="inner"> -->
 	<div class="row-no-gutters">
 	{% for post in site.posts %}
-	{% if post.category == 'mautubep' %}		
+	{% if post.type == 'project' %}		
 	   <div class="col-lg-4 col-sm-4 col-md-4">
 			<a href="{{site.baseurl}}{{post.url}}" class="portfolio-box">
 				<!-- <img src="{{site.baseurl}}/assets/images/tubep_small/{{ post.image }}" class="img-responsive" alt=""> -->
-				<img src="{{site.baseurl}}/assets/images/tubep_small/{{ post.image }}" class="image main" alt="">
+				<img src="{{site.baseurl}}/assets/images/thumbs/{{ post.name }}/{{ post.image }}" class="image main" alt="">
 				<div class="portfolio-box-caption">
 				<div class="portfolio-box-caption-content">
 					<div class="project-category text-faded">
 						Du an
 					</div>
 					<div class="project-name">
-						{{ post.project }}
+						{{ post.title }}
 					</div>
 				</div>
 				</div>
