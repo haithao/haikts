@@ -1,1 +1,0 @@
-dir *.* /o /b /s > List.txt
