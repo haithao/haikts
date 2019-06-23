@@ -30,29 +30,9 @@
 </section>
 
 <section class="no-padding" id="project">
-	<div class="container-fluid">
-	<div class="row-no-gutters">
-	{% for post in site.posts %}
-	{% if post.type == 'project' %}		
-	   <div class="col-lg-4 col-sm-4 col-md-4">
-			<a href="{{site.baseurl}}{{post.url}}" class="portfolio-box">
-				<img src="{{site.baseurl}}/assets/images/thumbs/{{ post.title }}/{{ post.image }}" class="image main" alt="">
-				<div class="portfolio-box-caption">
-				<div class="portfolio-box-caption-content">
-					<div class="project-category text-faded">
-						Project
-					</div>
-					<div class="project-name">
-						{{ post.title }}
-					</div>
-				</div>
-				</div>
-			</a>
-		</div>
-	{% endif %}
-	{% endfor %}			
-	</div>
-	</div>
+
+{{content}}
+
 </section>
 
 </div>
