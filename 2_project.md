@@ -7,16 +7,14 @@ nav-menu: true
 ---
 <section id="photos">
     {% for post in site.posts %}
-    <div class="box" style="background-color:#{{post.color}}">
-       {% if post.image %}
-          <img class="feat-image" src="{{site.baseurl}}/assets/images/thumbs/{{ post.title }}/{{ post.image }}" alt="{{post.title}}">		  
-       {% endif %}
-          <div class="container">
-            <h4>{{post.title}}</h4>
-            <p>{{post.description}}</p>
-             <!-- <div class="action">{{ post.date | date: '%B %d, %Y' }}<a href="{{post.url | prepend: site.baseurl}}"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>  -->
-        </div>   
-    </div>
+		{% if post.image %}
+		  <img src="{{site.baseurl}}/assets/images/thumbs/{{ post.title }}/{{ post.image }}" alt="{{post.title}}">		  
+		{% endif %}
+		<div class="container">
+			<h4>{{post.title}}</h4>
+			<p>{{post.description}}</p>
+			 <!-- <div class="action">{{ post.date | date: '%B %d, %Y' }}<a href="{{post.url | prepend: site.baseurl}}"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>  -->
+		</div>   
    {% endfor %}
 </div>
 
