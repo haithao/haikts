@@ -5,8 +5,7 @@ description: MOT SO DU AN DA THAM GIA TRIEN KHAI.
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
-<div id="container">
-<div id="grid" data-columns class="cols">
+<section id="photos">
     {% for post in site.posts %}
     <div class="box" style="background-color:#{{post.color}}">
        {% if post.image %}
@@ -19,8 +18,6 @@ nav-menu: true
         </div>   
     </div>
    {% endfor %}
-
-</div>
 </div>
 
-<script src="{{site.baseurl}}/js/salvattore.min.js"></script>
+<script src="{{site.baseurl}}/js/photo-grid.js"></script>
