@@ -2,7 +2,7 @@
 title: CONG TRINH THUC TE
 layout: landing
 description: CONG TRINH DA HOAN THANH.
-image: assets/images/pic07.jpg
+image: assets/images/banner-long.jpg
 nav-menu: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: TU VAN
 description: GOC CHUYEN GIA TU VAN.
-image: assets/images/pic07.jpg
+image: assets/images/banner-02.jpg
 nav-menu: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post-project
 title: DU AN
 description: MOT SO DU AN DA THAM GIA TRIEN KHAI.
-image: assets/images/pic11.jpg
+image: assets/images/banner-01.jpg
 nav-menu: true
 ---
 <section id="photos">
