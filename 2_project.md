@@ -8,6 +8,7 @@ nav-menu: true
 <section id="photos">
 <div class="row-no-gutters">
     {% for post in site.posts %}
+	{% if post.type == 'project' %}
 	<div class="img_wrap">
 		{% if post.image %}
 		<a href="{{site.baseurl}}{{post.url}}" class="portfolio-box">
@@ -16,6 +17,7 @@ nav-menu: true
 		<p class="img_description">{{post.description}}</p>
 		{% endif %}
 	</div>
+   {% endif %}
    {% endfor %}
 </div>
 </div>
