@@ -11,7 +11,7 @@ nav-menu: true
 	<div class="img_wrap">
 		{% if post.image %}
 		<a href="{{site.baseurl}}{{post.url}}" class="portfolio-box">
-		  <img src="{{site.baseurl}}/assets/images/thumbs/{{ post.title }}/{{ post.image }}" alt="{{post.title}}">	
+		  <img src="{{site.baseurl}}/assets/images/thumbs/{{ post.title }}/{{ post.image }}" class="image" >	
 		</a>
 		<p class="img_description">{{post.description}}</p>
 		{% endif %}
@@ -28,6 +28,7 @@ function getRandomSize(min, max) {
 </script>
 
 <style>
+<!-- Show text -->
 .img_wrap {
   position: relative;
   height: auto;
@@ -36,7 +37,7 @@ function getRandomSize(min, max) {
  
 .img_description {
 	position: absolute;
-	top: 50;
+	top:0;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -54,5 +55,24 @@ function getRandomSize(min, max) {
   visibility: visible;
   opacity: 1;
 }
+.img_wrap:hover .img_description {
+  visibility: visible;
+  opacity: 1;
+}
 
+<!-- image fade -->
+.img_wrap:hover .image {
+  opacity: 0.3;
+}
+
+.img_wrap:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 </style>
