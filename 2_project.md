@@ -37,7 +37,7 @@ function getRandomSize(min, max) {
  
 .img_description {
 	position: absolute;
-	top:0;
+	top: 30;
 	bottom: 0;
 	left: 0;
 	right: 0;
