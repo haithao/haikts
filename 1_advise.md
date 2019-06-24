@@ -10,7 +10,7 @@ nav-menu: true
 
 <div class="inner">
 {% for post in site.posts %}
-{% if post.category == 'tuvan' %}
+{% if post.type == 'tuvan' %}
 {% if post.title != 404 %}
 	<p>
 	<a href="{{site.baseurl}}{{post.url}}" class="portfolio-box">
