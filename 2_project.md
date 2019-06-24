@@ -11,7 +11,7 @@ nav-menu: true
 	<div class="img_wrap">
 		{% if post.image %}
 		<a href="{{site.baseurl}}{{post.url}}" class="portfolio-box">
-		  <img src="{{site.baseurl}}/assets/images/thumbs/{{ post.title }}/{{ post.image }}" class="image" >	
+		  <img src="{{site.baseurl}}/assets/images/thumbs/{{ post.image }}" class="image" >	
 		</a>
 		<p class="img_description">{{post.description}}</p>
 		{% endif %}
