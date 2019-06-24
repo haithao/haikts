@@ -36,11 +36,11 @@ sass:
   style: compressed  
 
 defaults:
-- scope:
-  path: "assets/images/dathicong"
-  
-values:
-  image: true
+  - scope:
+      path: "assets/images/dathicong"
+    values:
+      image: true
+
 # plugins
 plugins:
   - jekyll-seo-tag 
