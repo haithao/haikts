@@ -1,6 +1,6 @@
 ---
 layout: posttuvan
-category: tuvan
+type: tuvan
 title: Tu van ve Thiet ke khu bep
 description: Các dạng tủ bếp và phụ kiện tủ bếp đi kèm hiện nay.
 image: assets/images/pic06.jpg
