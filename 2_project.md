@@ -6,6 +6,7 @@ image: assets/images/pic11.jpg
 nav-menu: true
 ---
 <section id="photos">
+<div class="row-no-gutters">
     {% for post in site.posts %}
 		{% if post.image %}
 		<a href="{{site.baseurl}}{{post.url}}" class="portfolio-box">
@@ -17,6 +18,7 @@ nav-menu: true
 		</div>
 		{% endif %}  
    {% endfor %}
+</div>
 </div>
 
 <script src="{{site.baseurl}}/js/photo-grid.js"></script>
