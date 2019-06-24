@@ -10,10 +10,10 @@ nav-menu: true
 		{% if post.image %}
 		  <img src="{{site.baseurl}}/assets/images/thumbs/{{ post.title }}/{{ post.image }}" alt="{{post.title}}">		  
 		{% endif %}
-		<!-- <div class="container"> -->
+		<div class="container">
 			<!-- <h4>{{post.title}}</h4> -->
-			<!-- <p>{{post.description}}</p> -->
-		<!-- </div>    -->
+			{{post.description}}
+		</div>   
    {% endfor %}
 </div>
 
