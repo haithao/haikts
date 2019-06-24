@@ -33,8 +33,14 @@ twitter_url: https://twitter.com/
 markdown: kramdown
 
 sass:
-  style: compressed
+  style: compressed  
+
+defaults:
+- scope:
+  path: "assets/images/dathicong"
   
+values:
+  image: true
 # plugins
 plugins:
   - jekyll-seo-tag 
