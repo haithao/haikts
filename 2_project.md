@@ -27,52 +27,52 @@ function getRandomSize(min, max) {
 }
 </script>
 
-<style>
-/* Show text */
-.img_wrap {
-  position: relative;
-  height: auto;
-  width: auto;
-}
+<!-- <style> -->
+<!-- /* Show text */ -->
+<!-- .img_wrap { -->
+  <!-- position: relative; -->
+  <!-- height: auto; -->
+  <!-- width: auto; -->
+<!-- } -->
  
-.img_description {
-	position: absolute;
-	top: 30;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	color: #fff;
-	visibility: hidden;
-	opacity: 0;
-	font-size: 25px;
-	Text-align:center;
+<!-- .img_description { -->
+	<!-- position: absolute; -->
+	<!-- top: 30; -->
+	<!-- bottom: 0; -->
+	<!-- left: 0; -->
+	<!-- right: 0; -->
+	<!-- color: #fff; -->
+	<!-- visibility: hidden; -->
+	<!-- opacity: 0; -->
+	<!-- font-size: 25px; -->
+	<!-- Text-align:center; -->
  
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
-}
+  <!-- /* transition effect. not necessary */ -->
+  <!-- transition: opacity .2s, visibility .2s; -->
+<!-- } -->
  
-.img_wrap:hover .img_description {
-  visibility: visible;
-  opacity: 1;
-}
-.img_wrap:hover .img_description {
-  visibility: visible;
-  opacity: 1;
-}
+<!-- .img_wrap:hover .img_description { -->
+  <!-- visibility: visible; -->
+  <!-- opacity: 1; -->
+<!-- } -->
+<!-- .img_wrap:hover .img_description { -->
+  <!-- visibility: visible; -->
+  <!-- opacity: 1; -->
+<!-- } -->
 
-/* image fade */
-.img_wrap:hover .image {
-  opacity: 0.3;
-}
+<!-- /* image fade */ -->
+<!-- .img_wrap:hover .image { -->
+  <!-- opacity: 0.3; -->
+<!-- } -->
 
-.img_wrap:hover .middle {
-  opacity: 1;
-}
+<!-- .img_wrap:hover .middle { -->
+  <!-- opacity: 1; -->
+<!-- } -->
 
-.text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-</style>
+<!-- .text { -->
+  <!-- background-color: #4CAF50; -->
+  <!-- color: white; -->
+  <!-- font-size: 16px; -->
+  <!-- padding: 16px 32px; -->
+<!-- } -->
+<!-- </style> -->
