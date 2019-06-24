@@ -28,7 +28,7 @@ function getRandomSize(min, max) {
 </script>
 
 <style>
-<!-- Show text -->
+/* Show text */
 .img_wrap {
   position: relative;
   height: auto;
@@ -60,7 +60,7 @@ function getRandomSize(min, max) {
   opacity: 1;
 }
 
-<!-- image fade -->
+/* image fade */
 .img_wrap:hover .image {
   opacity: 0.3;
 }
