@@ -1,5 +1,5 @@
 ---
-layout: posttuvan
+layout: post
 type: tuvan
 title: Tu van ve Thiet ke khu bep
 description: Các dạng tủ bếp và phụ kiện tủ bếp đi kèm hiện nay.

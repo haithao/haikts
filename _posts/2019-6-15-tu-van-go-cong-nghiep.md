@@ -1,5 +1,5 @@
 ---
-layout: posttuvan
+layout: post
 type: tuvan
 title: Tu van ve go cong nghiep
 description: Gỗ công nghiệp - Kiến thức siêu cơ bản của nhà thiết kế nội thất đương đại.
