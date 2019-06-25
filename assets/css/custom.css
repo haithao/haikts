@@ -8,10 +8,10 @@ body {
 }
 
 .major > h1 h2 h3 {
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 5px black;
 }
 .content > h1 h2 h3 {
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 5px black;
 }
 
 /* h1 { */
