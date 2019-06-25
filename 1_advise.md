@@ -13,7 +13,7 @@ nav-menu: true
 {% if post.type == 'tuvan' %}
 {% if post.title != 404 %}
 	<p>
-	<a href="{{site.baseurl}}{{post.url}}" class="portfolio-box" text-shadow: "2px 2px 5px black" >
+	<a href="{{site.baseurl}}{{post.url}}" class="portfolio-box" >
 		<h2>{{ post.title }}</h2>
 	</a>
 	<!-- {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %} -->
