@@ -8,12 +8,9 @@ body {
 }
 
 .intro-message > h1 {
-    /* margin: 0; */
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
 }
 body, h1, h2, h3, h4, h5, h6 {
-    /* font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
     font-weight: 700;
 }
 
