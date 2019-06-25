@@ -7,7 +7,7 @@ body {
     /* background-color: #2a2f4a; */
 }
 
-.major > h1 h2 h3 {
+.major > h1 h2 h3 a {
     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
 }
 .content > h1 h2 h3 {
