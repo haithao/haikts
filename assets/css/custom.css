@@ -7,10 +7,16 @@ body {
     /* background-color: #2a2f4a; */
 }
 
-.major > h1 h2 h3 {
+.major > h1 {
     text-shadow: 2px 2px 5px black;
 }
-.content > h1 h2 h3 {
+.major > h2 {
+    text-shadow: 2px 2px 5px black;
+}
+.major > h3 {
+    text-shadow: 2px 2px 5px black;
+}
+.content > p {
     text-shadow: 2px 2px 5px black;
 }
 
