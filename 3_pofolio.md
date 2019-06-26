@@ -1,7 +1,7 @@
 ---
-title: CONG TRINH THUC TE
+title: Giới thiệu công trình thực tế
 layout: landing
-description: CONG TRINH DA HOAN THANH.
+description: Công trình đã hoàn thành.
 image: assets/images/banner-long.jpg
 nav-menu: true
 ---
