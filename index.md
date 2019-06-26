@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Dang Thanh Hai'
+landing-title: 'Nội thất Smartview'
 description: null
 image: null
 author: null
