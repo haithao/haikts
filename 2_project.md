@@ -1,7 +1,7 @@
 ---
 layout: post-project
-title: DU AN
-description: MOT SO DU AN DA THAM GIA TRIEN KHAI.
+title: Nội thất
+description: Một số dự án đã tham gia triển khai.
 image: assets/images/banner-01.jpg
 nav-menu: true
 ---
@@ -28,53 +28,3 @@ function getRandomSize(min, max) {
   return Math.round(Math.random() * (max - min) + min);
 }
 </script>
-
-<!-- <style> -->
-<!-- /* Show text */ -->
-<!-- .img_wrap { -->
-  <!-- position: relative; -->
-  <!-- height: auto; -->
-  <!-- width: auto; -->
-<!-- } -->
- 
-<!-- .img_description { -->
-	<!-- position: absolute; -->
-	<!-- top: 30; -->
-	<!-- bottom: 0; -->
-	<!-- left: 0; -->
-	<!-- right: 0; -->
-	<!-- color: #fff; -->
-	<!-- visibility: hidden; -->
-	<!-- opacity: 0; -->
-	<!-- font-size: 25px; -->
-	<!-- Text-align:center; -->
- 
-  <!-- /* transition effect. not necessary */ -->
-  <!-- transition: opacity .2s, visibility .2s; -->
-<!-- } -->
- 
-<!-- .img_wrap:hover .img_description { -->
-  <!-- visibility: visible; -->
-  <!-- opacity: 1; -->
-<!-- } -->
-<!-- .img_wrap:hover .img_description { -->
-  <!-- visibility: visible; -->
-  <!-- opacity: 1; -->
-<!-- } -->
-
-<!-- /* image fade */ -->
-<!-- .img_wrap:hover .image { -->
-  <!-- opacity: 0.3; -->
-<!-- } -->
-
-<!-- .img_wrap:hover .middle { -->
-  <!-- opacity: 1; -->
-<!-- } -->
-
-<!-- .text { -->
-  <!-- background-color: #4CAF50; -->
-  <!-- color: white; -->
-  <!-- font-size: 16px; -->
-  <!-- padding: 16px 32px; -->
-<!-- } -->
-<!-- </style> -->
